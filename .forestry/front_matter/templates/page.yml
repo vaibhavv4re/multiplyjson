@@ -1,4 +1,14 @@
 ---
 label: page
 hide_body: true
-fields: []
+fields:
+- name: banner_desktop
+  type: file
+  config:
+    maxSize: 64
+  label: banner_desktop
+- name: banner_mobile
+  type: file
+  config:
+    maxSize: 64
+  label: banner_mobile
